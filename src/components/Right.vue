@@ -60,9 +60,9 @@ export default {
           duration: 1000
         })
       }
-    //   this.rigthsList = res.data
-      this.querycdt.tot = res.data.total
       this.rigthsList = res.data
+      // this.querycdt.tot = res.data.total
+      // this.rigthsList = res.data.
     },
     handleSizeChange(arg) {
       this.querycdt.pagesize = arg
